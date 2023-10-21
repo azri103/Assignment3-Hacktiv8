@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Assignment 3 Azri</title>
+  <link rel="icon" href="assets/image/hacktiv8.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="big-card">
+        <h3 style="text-align: center;">COVID-19 TRACKER</h3>
+        <form id="searchForm">
+            <div class="atas">
+                <label for=""></label>
+                <input style="margin-right: 10px;" type="text" name="negara" id="negara"><br>
+                <button>Get Data</button>
+            </div>
+        </form>
+      <div class="row">
+        <div class="card"><img src="assets/image/active.png"><h4 id="Active Case">Active Case</h4></div>
+        <div class="card"><img src="assets/image/new.png"><h4 id="New Case">New Case</h4></div>
+        <div class="card"><img src="assets/image/recovery.png" ><h4 id="Case Recovered">Recovered Case</h4></div>
+      </div>
+      <div class="row">
+        <div class="card"><img src="assets/image/totalcase.png" ><h4 id="Case Total">Total Case</h4></div>
+        <div class="card"><img src="assets/image/totaldeath.png"><h4 id="Death Total">Total Death</h4></div>
+        <div class="card"><img src="assets/image/test.png" ><h4 id="Test Total">Total Tes</h4></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/api.js"></script>
+
+</body>
+</html>
